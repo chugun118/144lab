@@ -1,0 +1,124 @@
+.wrapper{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.example{
+    list-style: none;
+    padding: 0;
+}
+.example li{
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+.example a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.example li+li{
+    position: relative;
+}
+.example li+li::before{
+    content: "";
+    display: block;
+    height: 1em;
+    border-left: 1px solid #999;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header{
+    background-image: url("インポート/main_image.png");
+    background-size: cover;
+    height: 799px;
+    width: 1280px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 78.48%;
+}
+
+.nav{
+    display: inline-block;
+    height: 77px;
+    width: 974.5px;
+    left: 140px;
+    top: 57px;
+    border-radius: 0px;
+    position: absolute;
+    left: 10.94%;
+    right: 12.93%;
+    top: 1.54%;
+    bottom: 96.39%;
+    background: #FFFFFF;
+}
+body{
+    background: #F2F3F7;
+}
+.light{
+    height: 261px;
+    width: 341px;
+    left: 140px;
+    top: 214px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 10.94%;
+    right: 62.42%;
+    top: 5.77%;
+    bottom: 87.2%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 87px;
+color: #D4004E;
+}
+.kagaku{
+    height: 48px;
+    width: 128px;
+    left: 197px;
+    top: 506px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 15.39%;
+    right: 74.61%;
+    top: 13.63%;
+    bottom: 85.08%;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #D4004E;
+}
+.SCROLL{
+    height: 15px;
+    width: 47px;
+    left: 607px;
+    top: 749px;
+    border-radius: nullpx;
+    position: absolute;
+    left: 47.42%;
+    right: 48.91%;
+    top: 20.18%;
+    bottom: 79.42%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* ボックスの高さと同一 */
+    color: #E00052;
+}
