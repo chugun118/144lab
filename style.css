@@ -62,6 +62,7 @@ header{
     top: 1.54%;
     bottom: 96.39%;
     background: #FFFFFF;
+    box-shadow: 10px 5px 5px rgb(168, 168, 168);
 }
 body{
     background: #F2F3F7;
@@ -82,7 +83,7 @@ body{
     font-weight: 400;
     font-size: 76px;
     line-height: 87px;
-color: #D4004E;
+    color: #D4004E;
 }
 .kagaku{
     height: 48px;
@@ -102,6 +103,12 @@ color: #D4004E;
     line-height: 24px;
     text-align: center;
     color: #D4004E;
+    height: 48px;
+    width: 128px;
+    left: 197px;
+    top: 506px;
+    border-radius: nullpx;
+
 }
 .SCROLL{
     height: 15px;
@@ -121,4 +128,9 @@ color: #D4004E;
     line-height: 15px;
     /* ボックスの高さと同一 */
     color: #E00052;
+    height: 15px;
+    width: 47px;
+    left: 607px;
+    top: 749px;
+    border-radius: nullpx;
 }
