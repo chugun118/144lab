@@ -557,3 +557,21 @@ content: '>';
   color: white;
   font-size: 2em;
 }
+.header{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  text-align:center;
+  width:auto;
+  height:80px;
+  text-align : center;
+}
+.footer{
+  width:100%;
+	margin:0 auto;
+  margin: auto;
+  max-width: 800px;
+  padding: 10px;
+}
